@@ -28,7 +28,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh './venv/bin/pytest--junitxml=result.xml'
+        sh './venv/bin/pytest --junitxml=result.xml'
       }
     }
   }
