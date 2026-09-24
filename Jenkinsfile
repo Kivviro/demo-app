@@ -35,7 +35,7 @@ pipeline {
 
   post {
     always {
-      juint 'result.xml'
+      junit 'result.xml'
     }
     success {
       echo 'Сборка прошла успешно'
